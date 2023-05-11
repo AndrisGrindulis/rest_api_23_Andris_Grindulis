@@ -6,9 +6,13 @@ import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Task {
+public class List {
     @JsonProperty("id")
     private String id;
     @JsonProperty("name")
     private String name;
+    @JsonProperty("idFolder")
+    private String idFolder;
+    @JsonProperty("nameFolder")
+    private String nameFolder;
 }
