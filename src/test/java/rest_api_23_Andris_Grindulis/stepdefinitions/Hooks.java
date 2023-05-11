@@ -1,3 +1,4 @@
+/*
 package rest_api_23_Andris_Grindulis.stepdefinitions;
 
 import io.cucumber.java.After;
@@ -15,7 +16,8 @@ public class Hooks {
     @After
     public void afterHook(){
         deleteList(TestCaseContext.getList().getId());
-        updateBoardInfo(BOARD_NAME, TestCaseContext.getBoard().getId());
+        updateSpaceInfo(SPACE_NAME, TestCaseContext.getBoard().getId());
         System.out.println("SCENARIO HAS ENDED");
     }
 }
+*/
